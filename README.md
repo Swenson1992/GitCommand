@@ -1,5 +1,5 @@
 ## Git Command
-![](./git.png)
+![](https://github.com/songjian925/GitCommand/blob/master/git.png)
 ### 一、新建代码库
 ```
 # 在当前目录新建一个Git代码库
