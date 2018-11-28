@@ -300,3 +300,8 @@ git push -u origin master
 git checkout <branch>
 git checkout --patch <other_branch> <file>
 ```
+
+... git 提示 无法pull仓库refusing to merge unrelated histories
+```linux
+git pull --allow-unrelated-histories
+```
