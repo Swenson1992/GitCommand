@@ -117,6 +117,13 @@ $ git branch -d [branch-name]
 # 删除远程分支
 $ git push origin --delete [branch-name]
 $ git branch -dr [remote/branch]
+
+# 分支重命名步骤
+$ git branch -m oldName newName
+$ git branch -m oldName newName
+$ git push --delete origin oldName
+$ git push origin newName
+$ git branch --set-upstream-to origin/newName
 ```
 
 ### 六、标签
